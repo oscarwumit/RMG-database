@@ -16959,3 +16959,44 @@ Converted to training reaction from rate rule: R9_SDSSSD;doublebond_intra_pri_2H
 """,
 )
 
+entry(
+    index = 825,
+    label = "C12H17-55 <=> C12H17-56",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A=(29023.5, 's^-1'),
+        n=1.19861,
+        Ea=(27.5998, 'kJ/mol'),
+        T0=(1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for rad4 <=> EthyltetralinRad
+Level of Theory: CBS-QB3
+Location of calculations Pharos/home/laitcl/Gaussian/2018/intra_R_Add
+""",
+)
+
+entry(
+    index = 826,
+    label = "C12H17-57 <=> C12H17-58",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.4489e+10, 's^-1'),
+        n = 1.22276,
+        Ea = (57.6245, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for rad3 <=> PropylindaneRad
+Level of Theory: CBS-QB3
+Location of calculations Pharos/home/laitcl/Gaussian/2018/intra_R_Add
+""",
+)
