@@ -56983,3 +56983,49 @@ Addition to subtituted Site
 More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
 """,
 )
+
+entry(
+    index = 2852,
+    label = "C12H17-63 <=> C12H16-1 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.59167e+10, 's^-1'),
+        n = 0.899322,
+        Ea = (121.108, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Original entry: EthyltetralinRad <=> Ethyltetralin + H
+Calculation for EthyltetralinRad <=> Ethyltetralin + H
+Level of Theory: CBS-QB3
+Number of Rotors included: 1
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2853,
+    label = "C12H17-64 <=> C12H16-2 + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.44564e+10, 's^-1'),
+        n = 0.96702,
+        Ea = (108.102, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Original entry: PropylindaneRad <=> Propylindane + H
+Calculation for PropylindaneRad <=> Propylindane + H
+Level of Theory: CBS-QB3
+Number of Rotors included: 3
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
