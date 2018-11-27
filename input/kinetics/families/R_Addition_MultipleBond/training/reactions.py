@@ -56986,46 +56986,213 @@ More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Ra
 
 entry(
     index = 2852,
-    label = "C12H17-63 <=> C12H16-1 + H",
+    label = "C12H16-1 + H <=> C12H17-63",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (2.59167e+10, 's^-1'),
-        n = 0.899322,
-        Ea = (121.108, 'kJ/mol'),
+        A = (8.11555e+07, 'cm^3/(mol*s)'),
+        n = 1.68908,
+        Ea = (2.8054, 'kJ/mol'),
         T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
     longDesc = 
 u"""
 Training reaction from kinetics library: Lai_Hexylbenzene
-Original entry: EthyltetralinRad <=> Ethyltetralin + H
-Calculation for EthyltetralinRad <=> Ethyltetralin + H
-Level of Theory: CBS-QB3
-Number of Rotors included: 1
+Calculation for Ethyltetralin + H <=> EthyltetralinRad
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
 """,
 )
 
 entry(
     index = 2853,
-    label = "C12H17-64 <=> C12H16-2 + H",
+    label = "C12H16-2 + H <=> C12H17-64",
     degeneracy = 1.0,
     kinetics = Arrhenius(
-        A = (1.44564e+10, 's^-1'),
-        n = 0.96702,
-        Ea = (108.102, 'kJ/mol'),
+        A = (1.05357e+08, 'cm^3/(mol*s)'),
+        n = 1.45722,
+        Ea = (22.2904, 'kJ/mol'),
         T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
     ),
-    rank = 3,
+    rank = 5,
     shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
     longDesc = 
 u"""
 Training reaction from kinetics library: Lai_Hexylbenzene
-Original entry: PropylindaneRad <=> Propylindane + H
-Calculation for PropylindaneRad <=> Propylindane + H
+Calculation for Propylindane + H <=> PropylindaneRad
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2854,
+    label = "C12H14-3 + H <=> C12H15-74",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.11555e+07, 'cm^3/(mol*s)'),
+        n = 1.68908,
+        Ea = (2.8054, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for PropylindeneFar + HRad <=> PropylindeneRadFar
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2855,
+    label = "C12H14-4 + H <=> C12H15-75",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.49151e+09, 'cm^3/(mol*s)'),
+        n = 1.41481,
+        Ea = (8.0185, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 59 data points; dA = *|/ 1.01886, dn = +|- 0.00245203, dEa = +|- 0.0134886 kJ/mol',
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for EthylDihydronaphthaleneFar + HRad <=> EthylDihydronaphthaleneRadFar
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2856,
+    label = "C12H14-5 + H <=> C12H15-76",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.09054e+09, 'cm^3/(mol*s)'),
+        n = 1.09894,
+        Ea = (14.5058, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 59 data points; dA = *|/ 1.09445, dn = +|- 0.0118442, dEa = +|- 0.0651551 kJ/mol',
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for EthylDihydronaphthaleneNear + HRad <=> EthylDihydronaphthaleneRadNear
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2857,
+    label = "C12H12-5 + H <=> C12H13-53",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (5.15411e+09, 'cm^3/(mol*s)'),
+        n = 1.29523,
+        Ea = (13.7245, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 59 data points; dA = *|/ 1.02705, dn = +|- 0.00350246, dEa = +|- 0.019267 kJ/mol',
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadFar
 Level of Theory: CBS-QB3
-Number of Rotors included: 3
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2858,
+    label = "C12H12-6 + H <=> C12H13-54",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.74269e+09, 'cm^3/(mol*s)'),
+        n = 1.2919,
+        Ea = (18.5634, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 59 data points; dA = *|/ 1.02428, dn = +|- 0.00314905, dEa = +|- 0.0173229 kJ/mol',
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadFar2
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2859,
+    label = "C12H12-7 + H <=> C12H13-55",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.30484e+08, 'cm^3/(mol*s)'),
+        n = 1.57158,
+        Ea = (16.2141, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 59 data points; dA = *|/ 1.09791, dn = +|- 0.012259, dEa = +|- 0.0674367 kJ/mol',
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadNear
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
+Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
+""",
+)
+
+entry(
+    index = 2860,
+    label = "C12H12-8 + H <=> C12H13-56",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.84923e+08, 'cm^3/(mol*s)'),
+        n = 1.49476,
+        Ea = (14.68, 'kJ/mol'),
+        T0 = (1, 'K'),
+        Tmin = (303.03, 'K'),
+        Tmax = (2500, 'K'),
+        comment = 'Fitted to 59 data points; dA = *|/ 1.04951, dn = +|- 0.00634226, dEa = +|- 0.0348888 kJ/mol',
+    ),
+    rank = 5,
+    shortDesc = u"""Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level of theory""",
+    longDesc = 
+u"""
+Training reaction from kinetics library: Lai_Hexylbenzene
+Calculation for Ethylnaphthalene + HRad <=> EthylnaphthaleneRadNear2
+Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
 """,
 )
