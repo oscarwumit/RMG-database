@@ -57196,3 +57196,267 @@ Level of Theory: CBS-QB3, 1-D Rotors in B3LYP/CBSB7
 Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic Betascission
 """,
 )
+
+entry(
+    index = 2861,
+    label = "C7H8-27 + C2H5 <=> C9H13-76",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1781.88, 'cm^3/(mol*s)'),
+        n = 2.58533,
+        Ea = (34.9048, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + C2H5 --> CCC1[CH]C(C)=CC=C1
+Addition to Meta Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2862,
+    label = "C7H8-13 + C2H5 <=> C9H13-77",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (1048.1, 'cm^3/(mol*s)'),
+        n = 2.63245,
+        Ea = (32.101, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + C2H5 --> CCC1[CH]C=CC=C1C
+Addition to Ortho Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2863,
+    label = "C7H8-29 + C2H5 <=> C9H13-78",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (565.91, 'cm^3/(mol*s)'),
+        n = 2.65082,
+        Ea = (38.2927, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + C2H5 --> CCC1[CH]C=C(C)C=C1
+Addition to Para Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2864,
+    label = "C7H8-5 + C2H5 <=> C9H13-79",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (22.0765, 'cm^3/(mol*s)'),
+        n = 2.98911,
+        Ea = (37.4992, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + C2H5 --> CCC1(C)[CH]C=CC=C1
+Addition to subtituted Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2865,
+    label = "C7H8-27 + C7H7-3 <=> C14H15-40",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (333.522, 'cm^3/(mol*s)'),
+        n = 2.81143,
+        Ea = (52.4195, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Benzyl --> CC1[CH]C(C=CC=1)Cc1ccccc1
+Addition to Meta Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2866,
+    label = "C7H8-13 + C7H7-3 <=> C14H15-41",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (75.2016, 'cm^3/(mol*s)'),
+        n = 2.87538,
+        Ea = (47.3967, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Benzyl --> CC1=CC=C[CH]C1Cc1ccccc1
+Addition to Ortho Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2867,
+    label = "C7H8-29 + C7H7-3 <=> C14H15-42",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (203.185, 'cm^3/(mol*s)'),
+        n = 2.7789,
+        Ea = (51.957, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Benzyl --> CC1C=CC([CH]C=1)Cc1ccccc1
+Addition to Para Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2868,
+    label = "C7H8-5 + C7H7-3 <=> C14H15-43",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.0143, 'cm^3/(mol*s)'),
+        n = 3.28044,
+        Ea = (49.7678, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Benzyl --> CC1([CH]C=CC=C1)Cc1ccccc1
+Addition to subtituted Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2869,
+    label = "C7H8-27 + C8H9 <=> C15H17-45",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (6.36177, 'cm^3/(mol*s)'),
+        n = 3.21235,
+        Ea = (47.2354, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Ethylbenzyl --> CC1=CC=C[CH]C1C(C)c1ccccc1
+Addition to Meta Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2870,
+    label = "C7H8-13 + C8H9 <=> C15H17-46",
+    degeneracy = 2.0,
+    kinetics = Arrhenius(
+        A = (9.9686, 'cm^3/(mol*s)'),
+        n = 3.05153,
+        Ea = (47.5686, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Ethylbenzyl --> CC1[CH]C(C=CC=1)C(C)c1ccccc1
+Addition to Ortho Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2871,
+    label = "C7H8-29 + C8H9 <=> C15H17-47",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.8336, 'cm^3/(mol*s)'),
+        n = 3.1834,
+        Ea = (47.5562, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Ethylbenzyl --> CC1C=CC([CH]C=1)C(C)c1ccccc1
+Addition to Para Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
+
+entry(
+    index = 2872,
+    label = "C7H8-5 + C8H9 <=> C15H17-48",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (0.0289968, 'cm^3/(mol*s)'),
+        n = 3.67504,
+        Ea = (50.8048, 'kJ/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 5,
+    shortDesc = u"""Training reaction, kinetics calculated by Lawrence Lai""",
+    longDesc = 
+u"""
+Training reaction, kinetics calculated by Lawrence Lai under the CBS-QB3 level of theory, 2017
+All hindered rotors included in B3LYP/CBSB7 level
+Toluene + Ethylbenzyl --> CC(c1ccccc1)C1(C)[CH]C=CC=C1
+Addition to subtituted Site
+More information can be found on pharos/home/laitcl/Gaussian/2017/Aromatic Pi Radicals
+""",
+)
