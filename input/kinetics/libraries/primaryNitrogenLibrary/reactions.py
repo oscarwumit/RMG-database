@@ -4189,9 +4189,8 @@ Table 2
 entry(
     index = 234,
     label = 'N2H4 + NH <=> N2H3 + NH2',
-    degeneracy = 8,
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(1.19e+02, 'cm^3/(mol*s)'), n=3.61, Ea=(24.3, 'kJ/mol'),
+    kinetics = Arrhenius(A=(6.09e+01, 'cm^3/(mol*s)'), n=3.61, Ea=(24.3, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
@@ -4208,10 +4207,9 @@ Added as training reaction to H-Abstraction
 entry(
     index = 235,
     label = 'N2H4 + H2NN(S) <=> N4',
-    degeneracy = 4,
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(1.94e-01, 'cm^3/(mol*s)'), n=3.74, Ea=(48.6, 'kJ/mol'),
-        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(4.73e-01, 'cm^3/(mol*s)'), n=3.55, Ea=(50.6, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
 u"""
@@ -4226,10 +4224,9 @@ Fitted to 51 data points; dA = *|/ 1.23644, dn = +|- 0.0264761, dEa = +|- 0.2006
 entry(
     index = 236,
     label = 'N2H4 + H2NN(S) <=> N4c23',
-    degeneracy = 2,
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(1.21e+01, 'cm^3/(mol*s)'), n=2.76, Ea=(57.6, 'kJ/mol'),
-        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(2.29e+00, 'cm^3/(mol*s)'), n=2.96, Ea=(55.4, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
 u"""
@@ -4244,10 +4241,9 @@ Fitted to 51 data points; dA = *|/ 1.23663, dn = +|- 0.0264574, dEa = +|- 0.2022
 entry(
     index = 237,
     label = 'N4 <=> NH3 + NH2NHN',
-    degeneracy = 2,
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(1.31e+12, 's^-1'), n=0.78, Ea=(173.6, 'kJ/mol'),
-        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(3.00e+12, 's^-1'), n=0.83, Ea=(178.7, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
 u"""
@@ -4263,10 +4259,9 @@ Added as training reaction to 1,2_NH3_elimination
 entry(
     index = 238,
     label = 'N4c23 <=> NH3 + NH2NNH',
-    degeneracy = 2,
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(2.30e+13, 's^-1'), n=0.42, Ea=(37.1, 'kJ/mol'),
-        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(4.30e+13, 's^-1'), n=0.26, Ea=(38.7, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
 u"""
@@ -4281,11 +4276,10 @@ Added as training reaction to 1,2_NH3_elimination
 
 entry(
     index = 239,
-    label = 'N2H4 + H2NN(S) <=> N2H3 + N2H3',
-    degeneracy = 2,
+    label = 'N2H3 + N2H3 <=> N2H4 + H2NN(S)',
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(1.77e-01, 'cm^3/(mol*s)'), n=3.54, Ea=(48.2, 'kJ/mol'),
-        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(1.11e-01, 'cm^3/(mol*s)'), n=3.21, Ea=(-1.5, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
 u"""
@@ -4300,7 +4294,6 @@ Fitted to 51 data points; dA = *|/ 1.02199, dn = +|- 0.00271314, dEa = +|- 0.020
 entry(
     index = 240,
     label = 'NH2NHN <=> NH3 + N2',
-    degeneracy = 1,
     elementary_high_p = True,
     allow_max_rate_violation=True,
     kinetics = Arrhenius(A=(7.17e+08, 's^-1'), n=3.54, Ea=(48.2, 'kJ/mol'),
@@ -4320,7 +4313,6 @@ Added as training reaction to 1,2_NH3_elimination
 entry(
     index = 241,
     label = 'NH2NNH <=> NH3 + N2',
-    degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.90e+09, 's^-1'), n=1.34, Ea=(142.2, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
@@ -4339,7 +4331,6 @@ Added as training reaction to 1,3_NH3_elimination
 entry(
     index = 242,
     label = 'N2H3 + NH2 <=> H2NN(T) + NH3',
-    degeneracy = 1,
     kinetics = Arrhenius(A=(3.10e+00, 'cm^3/(mol*s)'), n=3.43, Ea=(-8.2, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
@@ -4357,7 +4348,6 @@ Added as training reaction to H-Abstraction
 entry(
     index = 243,
     label = 'N2H3 + NH2 <=> H2NN(S) + NH3',
-    degeneracy = 1,
     allow_pdep_route = True,
     kinetics = Arrhenius(A=(1.03+12, 'cm^3/(mol*s)'), n=0, Ea=(0, 'kJ/mol'), T0=(1, 'K')),
     shortDesc = u"""estimated""",
@@ -4375,9 +4365,8 @@ it's Ea in the modified Arrhenius form above is negative.
 entry(
     index = 244,
     label = 'N3 <=> H2NN(S) + NH3',
-    degeneracy = 2,
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(2.11e+10, 's^-1'), n=1.14, Ea=(177.1, 'kJ/mol'),
+    kinetics = Arrhenius(A=(1.04e+10, 's^-1'), n=1.14, Ea=(177.1, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
@@ -4393,7 +4382,6 @@ Added as training reaction to 1,2_NH3_elimination
 entry(
     index = 245,
     label = 'NH2NHN <=> NH2NNH',
-    degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.50e+08, 's^-1'), n=1.44, Ea=(168.1, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
@@ -4411,9 +4399,8 @@ Fitted to 51 data points; dA = *|/ 1.73206, dn = +|- 0.0669199, dEa = +|- 0.6676
 entry(
     index = 246,
     label = 'N3 <=> N2H2 + NH3',
-    degeneracy = 4,
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(2.85e+09, 's^-1'), n=0.92, Ea=(213.3, 'kJ/mol'),
+    kinetics = Arrhenius(A=(1.40e+09, 's^-1'), n=0.92, Ea=(213.3, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
@@ -4429,9 +4416,8 @@ Added as training reaction to 1,3_NH3_elimination
 entry(
     index = 247,
     label = 'N3c <=> N2H2 + NH3',
-    degeneracy = 2,
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(6.66e+11, 's^-1'), n=0.57, Ea=(41.2, 'kJ/mol'),
+    kinetics = Arrhenius(A=(6.57e+11, 's^-1'), n=0.57, Ea=(41.2, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
@@ -4446,9 +4432,8 @@ rotors: B3LYP/6-311++G(3df,3pd)
 entry(
     index = 248,
     label = 'N3 <=> N3c',
-    degeneracy = 2,
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(1.61e+10, 's^-1'), n=0.85, Ea=(103.9, 'kJ/mol'),
+    kinetics = Arrhenius(A=(7.94e+09, 's^-1'), n=0.85, Ea=(103.9, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
@@ -4463,10 +4448,9 @@ rotors: B3LYP/6-311++G(3df,3pd)
 entry(
     index = 249,
     label = 'N4 <=> NH2NNH + NH3',
-    degeneracy = 2,
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(9.04e+09, 's^-1'), n=0.95, Ea=(207.4, 'kJ/mol'),
-        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(7.70e+10, 's^-1'), n=0.84, Ea=(214.1, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
 u"""
@@ -4482,7 +4466,6 @@ Added as training reaction to 1,3_NH3_elimination
 entry(
     index = 250,
     label = 'H2NN(T) <=> H2NN(S)',
-    degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1e+12, 's^-1'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
     shortDesc = u"""est.""",
@@ -4495,7 +4478,6 @@ An estimated rate for the fast H2NN(T) transition into the stable H2NN(S) form
 entry(
     index = 251,
     label = 'H2NN(S) <=> N2H2',
-    degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.77e+07, 's^-1'), n=1.75, Ea=(179.2, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
@@ -4511,11 +4493,10 @@ Fitted to 51 data points; dA = *|/ 2.61343, dn = +|- 0.117033, dEa = +|- 1.16761
 
 entry(
     index = 252,
-    label = 'N4c23 <=> N4c12',
-    degeneracy = 1,
+    label = 'N4c12 <=> N4c23',
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(2.86e+07, 's^-1'), n=1.58, Ea=(82.4, 'kJ/mol'),
-        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(1.74e+10, 's^-1'), n=0.91, Ea=(74.4, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
 u"""
@@ -4529,11 +4510,10 @@ Fitted to 51 data points; dA = *|/ 2.65741, dn = +|- 0.121925, dEa = +|- 0.92422
 
 entry(
     index = 253,
-    label = 'N4c12 <=> N4',
-    degeneracy = 1,
+    label = 'N4 <=> N4c12',
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(7.53e+07, 's^-1'), n=0, Ea=(159.2, 'kJ/mol'),
-        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
+    kinetics = Arrhenius(A=(7.90e+11, 's^-1'), n=0.59, Ea=(158.6, 'kJ/mol'),
+        T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
 u"""
@@ -4548,7 +4528,6 @@ Fitted to 51 data points; dA = *|/ 1.24889, dn = +|- 0.0277259, dEa = +|- 0.2101
 entry(
     index = 254,
     label = 'NH2NNH <=> NHNHNH',
-    degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.47e+09, 's^-1'), n=1.03, Ea=(258.0, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
@@ -4566,7 +4545,6 @@ Fitted to 51 data points; dA = *|/ 1.0909, dn = +|- 0.0108533, dEa = +|- 0.08227
 entry(
     index = 255,
     label = 'cN3H3 <=> NHNHNH',
-    degeneracy = 3,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.23e+12, 's^-1'), n=0.56, Ea=(132.2, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
@@ -4584,7 +4562,6 @@ Fitted to 51 data points; dA = *|/ 1.0909, dn = +|- 0.0108533, dEa = +|- 0.08227
 entry(
     index = 256,
     label = 'N2H4 <=> NH3NH',
-    degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.34e+11, 's^-1'), n=0.86, Ea=(64.5, 'kcal/mol'),
         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
@@ -4600,7 +4577,6 @@ Table 3, R2
 entry(
     index = 257,
     label = 'N2H4 <=> H2NN(S) + H2',
-    degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(5.38e+09, 's^-1'), n=1.255, Ea=(75.3, 'kcal/mol'),
         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
@@ -4615,7 +4591,6 @@ Table 3, R3
 entry(
     index = 258,
     label = 'N2H4 <=> N2H2 + H2',
-    degeneracy = 2,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(8.70e+12, 's^-1'), n=0, Ea=(52.9, 'kcal/mol'),
         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
@@ -4634,7 +4609,6 @@ Also, a rate constant with a higher TS1 was showed in Table 3.
 entry(
     index = 259,
     label = 'NH3NH <=> NH3 + NH',
-    degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(1.10e+09, 's^-1'), n=1.64, Ea=(20.7, 'kcal/mol'),
         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
@@ -4649,7 +4623,6 @@ Table 3, R5
 entry(
     index = 260,
     label = 'NH3NH <=> N2H2 + H2',
-    degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(5.75e+10, 's^-1'), n=1.01, Ea=(33.8, 'kcal/mol'),
         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
@@ -4668,7 +4641,6 @@ Also, the reaction path to cis-N2H2 was calculated (Table 3, R7).
 entry(
     index = 261,
     label = 'NH3NH <=> N2H3 + H',
-    degeneracy = 3,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(3.37e+2, 's^-1'), n=2.82, Ea=(2.2, 'kcal/mol'),
         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
@@ -4683,7 +4655,6 @@ See Table 3, R8
 entry(
     index = 262,
     label = 'N2H2 + H2 <=> N2 + H2 + H2',
-    degeneracy = 1,
     kinetics = Arrhenius(A=(3.22e+6, 'cm^3/(mol*s)'), n=1.80, Ea=(21.4, 'kcal/mol'),
         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
     shortDesc = u"""[Bozzelli2010]""",
@@ -4698,7 +4669,6 @@ cis-N2H2 and H2 forms a six-membered ring structure in transition state.
 entry(
     index = 263,
     label = 'NH3NH + H2 <=> NH3 + NH3',
-    degeneracy = 1,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(9.03e+5, 'cm^3/(mol*s)'), n=2.59, Ea=(22.9, 'kcal/mol'),
         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
@@ -4713,7 +4683,6 @@ See Table 4, R12
 entry(
     index = 264,
     label = 'NH2 + N2H2(T) <=> NH + N2H3',
-    degeneracy = 4,
     elementary_high_p = True,
     kinetics = Arrhenius(A=(4.22e-02, 'cm^3/(mol*s)'), n=4.05, Ea=(52.1, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
@@ -4730,10 +4699,9 @@ Fitted to 51 data points; dA = *|/ 1.35051, dn = +|- 0.0366059, dEa = +|- 0.3652
 
 entry(
     index = 265,
-    label = 'N2H2 + NH3 <=> H2NN(S) + NH3',
-    degeneracy = 2,
+    label = 'H2NN(S) + NH3 <=> N2H2 + NH3',
     elementary_high_p = True,
-    kinetics = Arrhenius(A=(1.02e-01, 'cm^3/(mol*s)'), n=3.75, Ea=(130.8, 'kJ/mol'),
+    kinetics = Arrhenius(A=(2.07e-01, 'cm^3/(mol*s)'), n=3.64, Ea=(31.1, 'kJ/mol'),
         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
     shortDesc = u"""CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)""",
     longDesc =
