@@ -2863,9 +2863,6 @@ u""""
 Based on CBS-QB3 calculations, 02/2019, Lawrence Lai
 Model species is 1,3-cyclohexadiene-5-methylene
 """,
-u"""
-
-""",
 )
 
 entry(
